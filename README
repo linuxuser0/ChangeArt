@@ -1,0 +1,5 @@
+A very simple CraftBukkit server plugin created to change the art in paintings every 5 seconds. 
+Bugs:
+Paintings are invincible - Painting.setArt() is called even after painting is destroyed, painting is recreated.
+If block behind paining is destroyed, painting will not be destroyed until art is changed again.
+
